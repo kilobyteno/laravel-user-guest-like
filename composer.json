@@ -2,9 +2,12 @@
     "name": "kilobyteno/laravel-user-guest-like",
     "description": "A Laravel package to allow guests and users to like models",
     "keywords": [
-        "kilobyteno",
         "laravel",
-        "laravel-user-guest-like"
+        "like",
+        "guest",
+        "user",
+        "kilobyteno",
+        "kilobyte"
     ],
     "homepage": "https://github.com/kilobyteno/laravel-user-guest-like",
     "license": "MIT",

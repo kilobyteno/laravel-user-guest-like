@@ -1,14 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Ask a question
-    url: https://github.com/kilobyteno/laravel-user-guest-like/discussions/new?category=q-a
-    about: Ask the community for help
-  - name: Request a feature
-    url: https://github.com/kilobyteno/laravel-user-guest-like/discussions/new?category=ideas
-    about: Share ideas for new features
   - name: Report a security issue
     url: https://github.com/kilobyteno/laravel-user-guest-like/security/policy
     about: Learn how to notify us for sensitive bugs
-  - name: Report a bug
+  - name: Report a bug or issue
     url: https://github.com/kilobyteno/laravel-user-guest-like/issues/new
     about: Report a reproducable bug

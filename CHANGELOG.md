@@ -2,6 +2,6 @@
 
 All notable changes to `laravel-user-guest-like` will be documented in this file.
 
-## 1.0.0 - 202X-XX-XX
+## 1.0.0 - 2022-04-28
 
-- initial release
+- Initial release

@@ -1,9 +1,8 @@
 # Laravel User Guest Like
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kilobyteno/laravel-user-guest-like.svg?style=flat-square)](https://packagist.org/packages/kilobyteno/laravel-user-guest-like)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/kilobyteno/laravel-user-guest-like/run-tests?label=tests)](https://github.com/kilobyteno/laravel-user-guest-like/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/kilobyteno/laravel-user-guest-like/Check%20&%20fix%20styling?label=code%20style)](https://github.com/kilobyteno/laravel-user-guest-like/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/kilobyteno/laravel-user-guest-like.svg?style=flat-square)](https://packagist.org/packages/kilobyteno/laravel-user-guest-like)
+[![Tests](https://github.com/kilobyteno/laravel-user-guest-like/actions/workflows/run-tests.yml/badge.svg)](https://github.com/kilobyteno/laravel-user-guest-like/actions/workflows/run-tests.yml)
 
 A Laravel package to allow guests and users to like models.
 

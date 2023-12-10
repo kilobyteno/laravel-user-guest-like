@@ -5,8 +5,9 @@ on:
     types: [released]
 
 jobs:
-  update-changelog:
+  update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -20,8 +21,19 @@ jobs:
           release-notes: ${{ github.event.release.body }}
 
       - name: Commit updated CHANGELOG
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: main
           commit_message: Update CHANGELOG
           file_pattern: CHANGELOG.md
+
+      - name: Post release to Discord
+        uses: SethCohen/github-releases-to-discord@v1.13.1
+        with:
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          color: "16753920"
+          username: "kilobyte-bot"
+          avatar_url: "https://avatars.githubusercontent.com/u/98578253?s=200&v=4"
+          content: "@here A new release has been published! :rocket:"
+          footer_title: ${{ github.event.release.name }}
+          footer_timestamp: true

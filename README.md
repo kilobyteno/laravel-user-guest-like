@@ -94,6 +94,15 @@ $model->likes()->count();
 composer test
 ```
 
+## Compatibility
+
+|      | 1.0 | 1.1 | 1.2 |
+|------|-----|-----|-----|
+| 8.x  | ✅   | ❌   | ❌   | 
+| 9.x  | ❌   | ✅   | ✅   | 
+| 10.x | ❌   | ✅   | ✅   |
+| 11.x | ❌   | ❌   | ✅   |
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.

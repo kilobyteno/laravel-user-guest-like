@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-user-guest-like` will be documented in this file.
 
+## 1.4.0 - 2025-04-08
+
+### What's Changed
+
+* Add Laravel 12 support by @dsbilling in https://github.com/kilobyteno/laravel-user-guest-like/pull/24
+
+**Full Changelog**: https://github.com/kilobyteno/laravel-user-guest-like/compare/1.3.0...1.4.0
+
 ## 1.3.0 - 2025-04-08
 
 ### What's Changed

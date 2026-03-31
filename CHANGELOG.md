@@ -2,6 +2,31 @@
 
 All notable changes to `laravel-user-guest-like` will be documented in this file.
 
+## 1.5.0 - 2026-03-31
+
+### What's Changed
+
+* Add support for Laravel 13 and drop support for Laravel 11 by @dsbilling in https://github.com/kilobyteno/laravel-user-guest-like/pull/33
+  
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in https://github.com/kilobyteno/laravel-user-guest-like/pull/25
+  
+* Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot[bot] in https://github.com/kilobyteno/laravel-user-guest-like/pull/26
+  
+* Bump SethCohen/github-releases-to-discord from 1.16.2 to 1.19.0 by @dependabot[bot] in https://github.com/kilobyteno/laravel-user-guest-like/pull/27
+  
+* Bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/kilobyteno/laravel-user-guest-like/pull/28
+  
+* Bump stefanzweifel/git-auto-commit-action from 6 to 7 by @dependabot[bot] in https://github.com/kilobyteno/laravel-user-guest-like/pull/29
+  
+* Bump actions/checkout from 5 to 6 by @dependabot[bot] in https://github.com/kilobyteno/laravel-user-guest-like/pull/30
+  
+* Bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/kilobyteno/laravel-user-guest-like/pull/31
+  
+* Bump dependabot/fetch-metadata from 2.5.0 to 3.0.0 by @dependabot[bot] in https://github.com/kilobyteno/laravel-user-guest-like/pull/32
+  
+
+**Full Changelog**: https://github.com/kilobyteno/laravel-user-guest-like/compare/1.4.0...1.5.0
+
 ## 1.4.0 - 2025-04-08
 
 ### What's Changed

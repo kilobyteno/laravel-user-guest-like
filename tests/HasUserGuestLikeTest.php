@@ -5,6 +5,7 @@ namespace Kilobyteno\LaravelUserGuestLike\Tests;
 
 use Kilobyteno\LaravelUserGuestLike\Tests\Models\TestAuthorModel;
 use Kilobyteno\LaravelUserGuestLike\Tests\Models\TestModel;
+use PHPUnit\Framework\Attributes\Test;
 
 class HasUserGuestLikeTest extends TestCase
 {
@@ -25,7 +26,7 @@ class HasUserGuestLikeTest extends TestCase
         ]);
     }
 
-    /** @test */
+    #[Test]
     public function it_can_be_liked_by_a_user()
     {
         $this->testModel->like($this->author);
@@ -33,7 +34,7 @@ class HasUserGuestLikeTest extends TestCase
         $this->assertEquals(1, $this->testModel->likes()->count());
     }
 
-    /** @test */
+    #[Test]
     public function it_can_be_unliked_by_a_user()
     {
         $this->testModel->like($this->author);
